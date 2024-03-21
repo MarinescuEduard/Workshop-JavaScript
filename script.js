@@ -29,7 +29,7 @@ class DiscountProduct extends Product {
 	}
 }
 
-const discountedProduct = new DiscountProduct("Blugi", 100, "Cei mai smecheri blugi", "img/jeans1.jpg", 20);
+const discountedProduct = new DiscountProduct("Blugi", 100, "Cei mai smecheri blugi", "jeans1.jpg", 20);
 
 console.log(discountedProduct);
 console.log(discountedProduct.getDiscountedPrice());
@@ -37,8 +37,8 @@ console.log(discountedProduct.getDiscountedPrice());
 const productList = [];
 
 productList.push(discountedProduct);
-productList.push(new DiscountProduct("Bluza", 120, "Blugi normali dar scumpi", "img/jeans2.jpg", 15));
-productList.push(new DiscountProduct("Bluza", 200, "Blugi normali dar scumpi", "img/jeans3.jpg", 0));
+productList.push(new DiscountProduct("Bluza", 120, "Blugi normali dar scumpi", "jeans2.jpg", 15));
+productList.push(new DiscountProduct("Bluza", 200, "Blugi normali dar scumpi", "jeans3.jpg", 0));
 
 console.log(productList);
 
